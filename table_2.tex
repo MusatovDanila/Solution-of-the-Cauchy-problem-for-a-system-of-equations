@@ -1,0 +1,33 @@
+\begin{center}
+	\renewcommand{\arraystretch}{2}
+
+\begin{table}[htbp]\scriptsize
+	\begin{tabularx}{\textwidth}{|>{\hsize=0.12\hsize}C|>{\hsize=0.19\hsize}C|>{\hsize=0.1\hsize}C|>{\hsize=0.1\hsize}C|>{\hsize=0.1\hsize}C|>{\hsize=0.11\hsize}C|>{\hsize=0.2\hsize}C|}
+		\hline
+	Итерация & Матрица Якоби w & p & q & $ f_1(p,q) $ &$ f_2(p,q) $& $max(p-p_{0},q-q_{0})  $\\
+	\hline
+	1 & $ \bigg[\begin{smallmatrix}
+		0 & -2 \\
+		0.804302 & -0.540302
+	\end{smallmatrix}\bigg] $ & 0.188657 & -1 & 0.0355915 & -0.0155338	& 0.188657 \\
+\hline
+	2 & $ \bigg[\begin{smallmatrix}
+			0.377314 & -2 \\
+			0.672906 & -0.372906
+		\end{smallmatrix}\bigg] $ & 0.22545 &  -0.975263 &  0.00196564 & -0.0000676	& 0.0367932\\
+		\hline
+	3 & $ \bigg[\begin{smallmatrix}
+		 0.450901 & -1.95053 \\
+		0.661693 & -0.361693
+	\end{smallmatrix}\bigg] $ &  0.226198  &  -0.974081 &  0.0000019 &  -0.00000006 	& 0.00118059\\
+	\hline
+	4 & $ \bigg[\begin{smallmatrix}
+	0.452396 & -1.94816 \\
+	0.662097 & -0.362097
+	\end{smallmatrix}\bigg] $ &  0.226199 & -0.974081 &  0 & -0.00000002	& 0.00000113\\
+	\hline
+	\end{tabularx}
+\end{table}
+\color{blue}
+Таблица 2. результаты вычислений методом Ньютона начальное приближение (0,-1)
+\end{center}
